@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'sonos-objc/**/*.h'
   s.dependency 'AFNetworking', '3.0.0-beta.2'
-  s.dependency 'CocoaAsyncSocket', '7.4.2'
+  s.dependency 'CocoaAsyncSocket', :git => 'https://github.com/robbiehanson/CocoaAsyncSocket'
 end
