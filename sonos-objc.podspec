@@ -12,11 +12,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
+  s.tvos.deployment_target = '9.0'
   s.requires_arc = true
 
   s.source_files = 'sonos-objc/**/*.{h,m}'
 
   s.public_header_files = 'sonos-objc/**/*.h'
-  s.dependency 'AFNetworking', '2.4.1'
-  s.dependency 'CocoaAsyncSocket', '7.3.5'
+  s.dependency 'AFNetworking', '2.6.3'
+  s.dependency 'CocoaAsyncSocket', '7.4.2'
 end
